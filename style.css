@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav bar */
+.container{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #707070;
+}
+.search-par input{
+    width: 500px;
+    background-color: #F1F1F1;
+    border-radius: 66px;
+    padding: 15px 30px;
+    border:1px solid #F1F1F1;
+    
+
+}
+.search-par i{
+    position: absolute;
+    left: 875px;
+    top: 65px;
+    color: #bababa;
+}
+/* Banner */
+
+.banner{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    align-items: center;
+    gap:5px;
+    width: 1212px;
+    height: 455px;
+    margin: 100px;
+}
+.banner h2{
+    font-size: 52px ;
+    font-weight: bold ;
+    color: #1F1F1F;
+    font-family: "Poppins";
+}
+.banner img{
+    width: 402px;
+    height: 378px;
+    
+}
+.banner p{
+    font-size: 16px;
+    color: #1F1F1F;
+    font-family: "Inter";
+}
+.text{
+    margin-left: 50px;
+    
+}
+.banner-price{
+    color: #FF136F;
+    font-family: "Poppins";
+    font-size: 41px;
+    font-weight: bold;
+    display: block;
+}
+.panda-btn{
+    width: 168px;
+    height: 52px;
+    padding: 14px 14px;
+    background-color: #FF136F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border:2px solid #FF136F;
+    font-size: medium;
+
+
+}
+
+/* Categories */
+.categories {
+    margin: 64px auto;
+  }
+  .categories-card-container {
+    display: flex;
+    gap: 26px;
+    width: 100vh;
+  }
+  .category-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+  }
+  .category-card h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .category-card:nth-child(1) {
+    background: linear-gradient(
+      151.85deg,
+      rgb(255, 156, 53) 14.537%,
+      rgb(255, 208, 25) 84.486%
+    );
+  }
+  .category-card:nth-child(2) {
+    background: linear-gradient(
+      180deg,
+      rgb(255, 88, 155) -0.006%,
+      rgb(255, 19, 111) 99.994%
+    );
+  }
+  .category-card:nth-child(3) {
+    background: linear-gradient(
+      170.38deg,
+      rgb(66, 137, 255) 15.416%,
+      rgb(63, 7, 248) 74.29%
+    );
+  }
+  
+/* Shoes */
+.shoe-section{
+    margin: 64px;
+    padding: 45px;
+    background-color: #F4F4F4;
+}
+.upper h2{
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+.upper span{
+    color: #FF9D00;
+    font-size:20px ;
+    font-weight: medium;
+}
+.shoe-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.shoe-card{
+    width: 360px;
+    height: 532px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.shoe-card img{
+    width: 336px;
+    height: 202px;
+    padding: 10px;
+}
+.shoe-card h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F1F1F;
+    padding: 10px;
+}
+.shoe-card p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #4E4E4E;
+    font-family: "Inter";
+    padding: 10px;
+}
+.shoe-card span{
+    font-size: 24px;
+    font-weight: medium;
+    color: #1F1F1F;
+    display: block;
+    padding: 10px;
+    font-family: "Poppins";
+
+}
+.shoe-card button{
+    width: 140px;
+    height: 40px;
+    padding: 4px 4px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border:2px solid #1F1F1F;
+    font-size: medium;
+    padding: 10px;
+
+}
+
+/* Bags */
+.bag-section{
+    margin: 64px;
+    padding: 45px;
+    background-color: #F4F4F4;
+}
+.upper h2{
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+.upper span{
+    color: #FF9D00;
+    font-size:20px ;
+    font-weight: medium;
+}
+.bag-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.bag-card{
+    width: 360px;
+    height: 584px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.bag-card img{
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+}
+.bag-card h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F1F1F;
+    padding: 10px;
+}
+.bag-card p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #4E4E4E;
+    font-family: "Inter";
+    padding: 10px;
+}
+.bag-card span{
+    font-size: 24px;
+    font-weight: medium;
+    color: #1F1F1F;
+    display: block;
+    padding: 10px;
+    font-family: "Poppins";
+}
+.bag-card button{
+    width: 140px;
+    height: 40px;
+    padding: 4px 4px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border:2px solid #1F1F1F;
+    font-size: medium;
+    padding: 10px;
+
+}
+/* Last part */
+.contact-container{
+    height:455px ;
+    width:1212px ;
+    background-color: #fff2f1;
+    text-align: center;
+    align-items: center;
+    padding: 35px 20px;
+    margin: 35px auto;
+    border-radius: 15px;
+                
+}
+.contact-container h2{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1F1F1F;
+    font-family: "Poppins";
+}
+.contact-container input{
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 382px;
+    height: 73px;
+    border: 1px solid #FFFFFF;
+    font-size: medium;
+    margin: 10px;
+    padding: 10px;
+}
+.send{
+    cursor: pointer;
+    width: 130px;
+    height: 73px ;
+    font-size:medium ;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 88, 155) -0.006%,
+      rgb(255, 19, 111) 99.994%
+    );
+
+}
+.contact-container p{
+    color:#707070 ;
+    font-family:"Poppins" ;
+    font-size:16px ;
+    font-weight: medium;
+}
+.send:hover {
+    opacity: 0.9;
+  }
+button:hover{
+    opacity: 0.9;
+}
