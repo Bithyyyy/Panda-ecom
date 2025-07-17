@@ -340,3 +340,181 @@ nav{
 button:hover{
     opacity: 0.9;
 }
+/* Making website resposive */
+@media (max-width: 756px){
+    .search-par input{
+        width:90%;
+    }
+    .container {
+        padding: 0 0px;
+        margin-top: 0px;
+      }
+    
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .search-par i {
+        left: auto;
+        top: auto;
+        right: 25px;
+        top: 5px;
+        position: relative;
+      }
+      .nav-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      .banner {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+      }
+      .banner img {
+        width: 100%;
+        height: auto;
+      }
+  /* .categories-card-container,
+  .shoe-card-container,
+  .bag-card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+    .categories-card-container,
+    .shoe-card-container,
+    .bag-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .category-card,
+  .shoe-card,
+  .bag-card {
+    width: 80%;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .categories container h2{
+    text-align: center;
+  }
+  .contact-container {
+    width: 100%;
+    height: auto;
+  }
+  .contact-container input {
+    width: 90%;
+    height: 50px;
+  }
+  .send {
+    width: 80%;
+    height: 50px;
+  }
+  .shoe-card img,
+  .bag-card img {
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+
+
+}
+
+/* For screens up to 992px wide */
+@media (max-width: 992px)and (min-width:576px) {
+    .container {
+      padding: 0 20px;
+      margin-top: 30px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .search-par {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+    }
+  
+    .search-par input {
+      width: 100%;
+      max-width: 600px;
+    }
+  
+    .search-par i {
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .nav-items {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .banner {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      height: auto;
+      margin: 40px auto;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .banner img {
+      width: 100%;
+      height: auto;
+      max-width: 350px;
+    }
+  
+    .text {
+      margin-left: 0;
+    }
+  
+    .categories-card-container,
+    .shoe-card-container,
+    .bag-card-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .category-card,
+    .shoe-card,
+    .bag-card {
+        flex-direction: column;
+      
+    }
+  
+    .upper {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .contact-container {
+      width: 95%;
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .contact-container input,
+    .send {
+      width: 80%;
+      height: 60px;
+      margin: 10px auto;
+      display: block;
+    }
+  }
+  
